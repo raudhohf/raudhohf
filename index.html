@@ -1,41 +1,212 @@
-<html>
-    <head>
-        <title>WEB SAYA</title>
-        <link rel="stylesheet" href="style.css" />
-    </head>
-    <body>
-      <div class="container">
-      <!-- NAVIGATION BAR -->
-      <div class="container-navbar">
-        <ul class="ul-navbar">
-            <li class="li-navbar">
-              <a href="#" class="a-navbar">HOME</a>
-            </li>
-            <li class="li-navbar">
-              <a href="about.html" class="a-navbar">ABOUT ME</a>
-            </li>
-            <li class="li-navbar">
-              <a href="contact.html" class="a-navbar">CONTACT ME</a>
-            </li>
-        </ul>
-      </div>
-      <!-- NAVIGATION BAR SELESAI -->
+<!DOCTYPE html>
+<html lang="en">
+  <!-- head -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Raudhoh Fotokopi.</title>
 
-      <!-- CONTENT 1 -->
-      <div class="container-content">
-        <a href="http://www.youtube.com/@irgimaulanaghiffari8470" class="a-content">
-          <img src="RF1.png" class="img-content" />
-          <p>MAMPIR KE FOTOKOPI YU!</p>
-        </a>
-        
-      </div>
-      <!-- CONTENT 1 END -->
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet" />
 
-      <!-- FOOTER -->
-      <div class="container-footer">
-        <h1 class="h1-footer">Website ini dibuat setengah hati 😍</h1>
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- Icon -->
+    <link rel="icon" href="LOGO-RF.png" type="image/x-icon" />
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- Navbar start -->
+
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">Raudhoh <span>Fotokopi</span>.</a>
+
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Kontak</a>
       </div>
-      <!-- FOOTER END -->
-    </div>
-    </body>
+
+      <div class="navbar-extra">
+        <a href="#" id="search"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- Hero Section start -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>
+          Ibadah Muamalah Berkah <i>bersama</i> Raudhoh <span>Fotokopi</span>
+        </h1>
+        <p>
+          Usaha Raudhoh Fotokopi mengikuti mentor ternama yaitu Sahabat
+          Abdurrahman bin Auf.
+        </p>
+        <a href="#" class="cta">Yuk Mari</a>
+      </main>
+    </section>
+    <!-- Hero Section end-->
+
+    <!-- About Section start -->
+    <section id="about" class="about">
+      <h2><span>Tentang</span> Kami</h2>
+
+      <div class="row">
+        <div class="about-img">
+          <img src="img/printer4.jpg" alt="Tentang Kami" />
+        </div>
+        <div class="content">
+          <h3>Kenapa ke Raudhoh <span>Fotokopi</span>?</h3>
+          <p>
+            Karena di Raudhoh Fotokopi keberkahan yang menjadi tujuan utama
+            sementara keuntungan hanyalah bonus yang pasti di dapatkan. Tetap
+            berusaha untuk bermanfaat dan bermartabat sebagai wujud ikhtiar.
+          </p>
+          <p>
+            <b
+              >Raudhoh Fotokopi tidak melayani Transaksi yang merugikan diri
+              sendiri, orang lain dan Negara dengan Memanipulasi data, Pemalsuan
+              dokumen serta Transaksi lainnya yang bertentangan dengan Norma dan
+              Hukum yang berlaku.</b
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- About Section end -->
+
+    <!-- Menu Section start -->
+    <section id="menu" class="menu">
+      <h2><span>Menu</span> Kami</h2>
+      <p>
+        Kami melayani Fotokopi, Percetakan Foto dan Undangan serta Rendering
+        Video.
+      </p>
+
+      <div class="row">
+        <div class="menu-card">
+          <img src="img/printer5.jpg" alt="Fotokopi" class="menu-card-img" />
+          <h3 class="menu-card title">- Fotokopi -</h3>
+          <p class="menu-card-price">A4 / A5 / Folio / Buku dll</p>
+        </div>
+
+        <div class="menu-card">
+          <img src="img/cetak foto.jpg" alt="Fotokopi" class="menu-card-img" />
+          <h3 class="menu-card title">- Cetak Foto -</h3>
+          <p class="menu-card-price">2X3 / 3X4 / 4X6 / 5R / dll</p>
+        </div>
+
+        <div class="menu-card">
+          <img src="img/edit video.jpg" alt="Fotokopi" class="menu-card-img" />
+          <h3 class="menu-card title">- Editing Video -</h3>
+          <p class="menu-card-price">
+            Sweet Moment dalam format MP4 / HD / dll
+          </p>
+        </div>
+
+        <div class="menu-card">
+          <img
+            src="img/cetak undangan.jpg"
+            alt="Fotokopi"
+            class="menu-card-img" />
+          <h3 class="menu-card title">- Cetak Undangan -</h3>
+          <p class="menu-card-price">
+            Walimatul Urs / Khitan / Aqiqah / Tasyakur / dll
+          </p>
+        </div>
+
+        <div class="menu-card">
+          <img src="img/kartu nama.jpg" alt="Fotokopi" class="menu-card-img" />
+          <h3 class="menu-card title">- Cetak Kartu -</h3>
+          <p class="menu-card-price">
+            Kartu Nama / Kartu Keluarga / Kartu Pelajar / dll
+          </p>
+        </div>
+
+        <div class="menu-card">
+          <img src="img/print.jpg" alt="Fotokopi" class="menu-card-img" />
+          <h3 class="menu-card title">- Tugas -</h3>
+          <p class="menu-card-price">Makalah / Kliping / Skripsi dll</p>
+        </div>
+      </div>
+    </section>
+    <!-- Menu Section end -->
+
+    <!-- Contact Section start -->
+    <section id="contact" class="contact">
+      <h2><span>Kontak</span> Kami</h2>
+      <p>
+        Kami melayani Fotokopi, Percetakan Foto dan Undangan serta Rendering
+        Video.
+      </p>
+
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d495.8221074525922!2d106.42205993988112!3d-6.187337789168045!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e4203fd03a8497d%3A0x7052ca06cb701ce9!2sRaudhoh%20Fotokopi!5e0!3m2!1sid!2sid!4v1724267277500!5m2!1sid!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map"></iframe>
+
+        <form action="">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="nama" />
+          </div>
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="text" placeholder="email" />
+          </div>
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input type="text" placeholder="no hp" />
+          </div>
+          <button type="submit" class="btn">kirim pesan</button>
+        </form>
+      </div>
+    </section>
+    <!-- Contact Section end -->
+
+    <!-- Footer start -->
+    <footer>
+      <div class="socials">
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="youtube"></i></a>
+        <a href="#"><i data-feather="facebook"></i></a>
+      </div>
+
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="credit">
+        <p>Created by <a href="">raudhohfotokopi</a>. | &copy; 2024.</p>
+      </div>
+    </footer>
+    <!-- Footer end -->
+
+    <!-- Feather Icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- My Javascript -->
+    <script src="js/script.js"></script>
+  </body>
 </html>
